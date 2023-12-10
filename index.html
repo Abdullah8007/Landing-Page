@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="shortcut icon" href="/Images/logo-icon.png" type="image/png">
+  <link rel="stylesheet" href="CSS/responsice.style.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+  <!-- Header Section Start -->
+
+  <section id="nav">
+    <div class="container">
+      <header
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-4 head">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+            <img src="/Images/logo-icon.png" class="img-fluid animate__animated animate__backInLeft animate__slow"
+              alt="">
+          </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 nav-list">
+          <li><a href="#hero" class="nav-link px-2 animate__animated animate__slideInLeft">Home</a></li>
+          <li><a href="#about" class="nav-link px-2 animate__animated animate__slideInUp">About</a></li>
+          <li><a href="#service" class="nav-link px-2 animate__animated animate__slideInDown">Services</a></li>
+          <li><a href="#contact" class="nav-link px-2 animate__animated animate__slideInRight">Contact</a></li>
+        </ul>
+
+        <div class="col-md-3 text-end social-links">
+          <div class="dropdown fa menu px-3">
+            <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false"
+              data-bs-auto-close="outside">
+              <i class="fa fa-user profile animate__animated animate__backInRight animate__slower"></i>
+            </button>
+            <form class="dropdown-menu p-4">
+              <div class="mb-3">
+                <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+              </div>
+              <div class="mb-3">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                  <label class="form-check-label" for="dropdownCheck2">
+                    Remember me
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-orange">Sign in</button>
+            </form>
+          </div>
+        </div>
+      </header>
+    </div>
+  </section>
+
+  <!-- Header Section End -->
+
+  <!-- Hero Section Start -->
+
+  <section id="hero">
+    <div class="container-fluid ms-auto top-banner">
+      <video autoplay muted loop src="/Images/hero.mp4"></video>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <h1>Superior Motor</h1>
+        <p>Setting the Standard in Automotive Excellence</p>
+        <button class="button1">
+          Hover me
+        </button>
+        <button class="button2">
+          Hover me
+        </button>
+      </div>
+      <div class="hero-image">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <img src="/Images/hero-img.png" alt="">
+      </div>
+    </div>
+    <div class="container social-links">
+      <p>Follow us on &rarr;
+        <a href="https://www.facebook.com" target="_blank" class="px-2"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com" target="_blank" class="px-2"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.twitter.com" target="_blank" class="px-2"><i class="fa fa-twitter"></i></a>
+      </p>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/5768d7013a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
