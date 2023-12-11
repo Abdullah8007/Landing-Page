@@ -123,69 +123,24 @@ html::-webkit-scrollbar-thumb {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    color: #090909;
+    color: #ff930c;
     padding: 0.5em 1em;
     font-size: 18px;
     border-radius: 0.5em;
     background: #fff;
-    border: 1px solid #ffc421;
+    border: 1px solid #fff;
     margin-right: 10px;
-}
-
-#hero .container .hero-content .button1:active {
-    color: #fdb40b;
-}
-
-#hero .container .hero-content .button1:before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) scaleY(1) scaleX(1.25);
-    top: 100%;
-    width: 140%;
-    height: 180%;
-    background-color: rgba(0, 0, 0, 0.05);
-    border-radius: 50%;
-    display: block;
-    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -1;
-}
-
-#hero .container .hero-content .button1:after {
-    content: "";
-    position: absolute;
-    left: 55%;
-    transform: translateX(-50%) scaleY(1) scaleX(1.45);
-    top: 180%;
-    width: 160%;
-    height: 190%;
-    background-color: #fdb40b;
-    border-radius: 50%;
-    display: block;
-    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -1;
 }
 
 #hero .container .hero-content .button1:hover {
     color: #ffffff;
     border: 1px solid #ff930c;
-}
-
-#hero .container .hero-content .button1:hover:before {
-    top: -35%;
-    background-color: #fdb40b;
-    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-}
-
-#hero .container .hero-content .button1:hover:after {
-    top: -45%;
     background-color: #ff930c;
-    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
 #hero .container .hero-content .button2 {
     display: inline-block;
-    transition: all 0.2s ease-in;
+    transition: all .2s ease-in;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -197,6 +152,12 @@ html::-webkit-scrollbar-thumb {
     border: 1px solid #ff930c;
 }
 
+#hero .container .hero-content .button2:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #ff930c;
+}
+
 #hero .container .hero-image .box1 {
     height: 35rem;
     width: 35rem;
@@ -206,6 +167,7 @@ html::-webkit-scrollbar-thumb {
     top: -20%;
     right: -1%;
     transform: rotateZ(45deg);
+    box-shadow: 5px 5px 20px #fdb40b;
 }
 
 #hero .container .hero-image .box2 {
@@ -216,6 +178,7 @@ html::-webkit-scrollbar-thumb {
     position: absolute;
     top: 5%;
     transform: rotateZ(45deg);
+    box-shadow: 5px 5px 20px #000;
 }
 
 #hero .container .hero-image .box3 {
@@ -226,6 +189,7 @@ html::-webkit-scrollbar-thumb {
     position: absolute;
     top: -40%;
     transform: rotateZ(45deg);
+    box-shadow: 5px 5px 30px #FF930C;
 }
 
 #hero .container .hero-image .box4 {
@@ -237,6 +201,7 @@ html::-webkit-scrollbar-thumb {
     top: 6%;
     right: -11%;
     transform: rotateZ(45deg);
+    box-shadow: 5px 5px 30px #FF930C;
 }
 
 
